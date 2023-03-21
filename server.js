@@ -7,6 +7,6 @@ app.get('/', (req,res) => {
 	res.sendFile(__dirname + '/NiceAdmin/index.html')
 })
 app.use('/',express.static(__dirname + '/NiceAdmin'))
-app.listen(3000, () => {
+app.listen(port, () => {
 	console.log("server is running on port " + port)
 })
