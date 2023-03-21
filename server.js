@@ -8,5 +8,5 @@ app.get('/', (req,res) => {
 })
 app.use('/',express.static(__dirname + '/NiceAdmin'))
 app.listen(3000, () => {
-	console.log("server is running on port" + port)
+	console.log("server is running on port " + port)
 })
